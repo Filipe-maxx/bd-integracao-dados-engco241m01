@@ -1,5 +1,5 @@
 -- 04_validacao
--- Nome:
+-- :
 -- V1. Fechamento de fevereiro de 2025 por filial e total da rede.
 SELECT
     CASE WHEN GROUPING(filial_id) = 1 THEN 'Total da rede'
