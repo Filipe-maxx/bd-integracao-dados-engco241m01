@@ -35,7 +35,7 @@ As versões corrigidas da estrutura estão em `sql/01_ddl_postgres.sql` e `sql/0
 | O script tentava converter todas as datas como números de série do Excel. | As células já reconhecidas como datas viraram valores nulos. Na primeira tentativa, nenhuma venda entrou, pois `data_emissao` é obrigatória. Os 29 pedidos e as 20 entradas foram inseridos com suas respectivas datas de pedido e de entrada nulas. | O importador corrigido lê e valida as datas fornecidas pela planilha antes de inseri-las no banco. |
 | O script enviava códigos textuais, como `F1`, diretamente para o identificador numérico do modelo corrigido. | Na primeira tentativa, as tabelas `fornecedor` e `produtos_filial` ficaram vazias. | Primeiro é cadastrado o fornecedor com seu código de origem. Ao importar um produto, o script procura esse código e grava a chave numérica correspondente. |
 | O script exibia o número de linhas lidas como se todas tivessem sido gravadas. | A mensagem de conclusão podia indicar sucesso mesmo quando uma tabela estava vazia. | A conferência passou a usar `SELECT COUNT(*)` diretamente nas tabelas do banco. |
-| O script executava `rollback()` após um erro de linha e continuava o processamento. | Uma falha podia desfazer registros anteriores da mesma transação e deixar a carga incompleta. | A versão corrigida trata a importação como uma transação única. Se ocorrer uma falha, a tentativa é desfeita e o erro é apresentado. |
+| O script executava `rollback()` após um erro de linha e continuava o processamento. | Uma falha podia desfazer registros anteriores da mesma transação e deixar a carga incompleta. | A versão corrigida trata a importação como uma transação única. Se caso ocorrer uma falha, a tentativa é desfeita e o erro é apresentado. |
 | Na aba `pedido_compra`, o script mantinha apenas as primeiras 12 colunas. | Nove linhas continham valores adicionais em colunas sem cabeçalho. Esses valores eram ignorados. | Os valores extras foram preservados em `pedido_colunas_extras`, junto ao número da linha da planilha e ao identificador do pedido, para conferência com o cliente. |
 
 ## Tratamentos aplicados aos dados
@@ -44,7 +44,7 @@ As versões corrigidas da estrutura estão em `sql/01_ddl_postgres.sql` e `sql/0
 - Os campos foram associados pelo nome do cabeçalho, incluindo a correspondência entre `idproduto` no Excel e `produto_id` no banco.
 - Quantidades e valores monetários foram armazenados em tipos decimais, preservando as frações existentes na origem.
 - A quantidade pendente foi calculada por `qtde_pedida - qtde_entregue`. O resultado representa o saldo informado pelo pedido e pode ser comparado depois com as notas de entrada.
-- Os pedidos com `ordem_compra` igual a zero foram preservados para investigação. Atribuir um número sem confirmação poderia vincular o pedido à nota errada.
+- Os pedidos que estão com `ordem_compra` igual a zero foram preservados para investigação. Atribuir um número sem confirmação poderia vincular o pedido à nota errada.
 
 ## Conferência final
 
@@ -73,4 +73,4 @@ UNION ALL
 SELECT 'fornecedor', COUNT(*) FROM fornecedor;
 ```
 
-Após a correção, as cinco tabelas somaram 122 registros, a mesma quantidade das cinco abas de origem. A primeira tentativa mostrou por que também é necessário conferir o conteúdo: as contagens de pedidos e entradas já coincidiam com a planilha, mesmo com datas nulas.
+Após a correção, as cinco tabelas somaram 122 registros, a mesma quantidade das cinco abas de origem. A primeira tentativa mostrou porque também é necessário conferir o conteúdo: as contagens de pedidos e entradas já coincidiam com a planilha, mesmo com datas nulas.
