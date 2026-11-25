@@ -1,4 +1,4 @@
--- DDL corrigido para mysql 
+-- DDL corrigido para MYSQL
 
 CREATE TABLE fornecedor (
     idfornecedor INTEGER AUTO_INCREMENT PRIMARY KEY,
