@@ -11,7 +11,7 @@
 | Nome | Matrícula | Usuário do GitHub |
 | --- | --- | --- |
 | Filipe Araújo| 2376037 |  |
-| Saeelem Nascimento | 2409395 |  |
+| Saeelem Nascimento | 2409395 | saellemsnasc-source |
 | Vinícius Lima | 2404318 |  |
 | Pablo Fernandes | 2419341 |  |
 | Gustavo Cruz | 2408543 |  |
