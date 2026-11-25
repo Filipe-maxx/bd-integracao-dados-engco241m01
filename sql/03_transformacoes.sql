@@ -1,5 +1,5 @@
 -- 03_transformacoes
--- Nome:
+-- nome:
 -- Relatório de pedidos de fevereiro de 2025.
 -- Interpretei "mais de 10 vezes" como aparecer em pelo menos 11 pedidos
 -- distintos no mês. Um pedido de 15 unidades conta como uma solicitação.
