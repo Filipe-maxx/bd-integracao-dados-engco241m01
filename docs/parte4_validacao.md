@@ -32,7 +32,7 @@ Perguntarei ao cliente se o fechamento oficial usa vendas brutas e se o arredond
 | V7 | 18 registros apresentaram pelo menos uma divergência de quantidade ou de data na comparação entre pedido e entrada. | Qual documento registra a quantidade efetivamente recebida e em qual data? |
 | V8 | 9 linhas de pedidos continham valores adicionais em colunas sem cabeçalho no Excel. | O que essas colunas representam e como devem ser utilizadas? |
 
-Um exemplo para discutir na reunião é a ordem 1, do produto P1. Foram pedidas 96 unidades. O pedido informa 10 unidades entregues, enquanto a nota registra 77 recebidas. Vou solicitar o comprovante de recebimento para identificar qual registro precisa de ajuste.
+Um bom exemplo para discutir na reunião é a ordem 1, do produto P1. Foram pedidas 96 unidades. O pedido informa 10 unidades entregues, enquanto a nota registra 77 recebidas. Vou solicitar o comprovante de recebimento para identificar qual registro precisa de ajuste.
 
 ## 3. Conferência da frequência das requisições
 
@@ -40,4 +40,4 @@ Na consulta V9, cada pedido distinto de um produto conta como uma requisição. 
 
 ## 4. Encerramento
 
-Para cada divergência, vou registrar o documento consultado, a decisão do cliente e a correção autorizada. Depois dos ajustes, as consultas irão ser executadas novamente e os resultados serão comparados com o fechamento oficial. Os pedidos sem ordem válida ficarão pendentes de confirmação até que seja possível identificar as notas correspondentes.
+Para cada divergência, vou registrar o documento consultado, a decisão do cliente e a correção autorizada. Depois dos ajustes, as consultas serão executadas novamente e os resultados serão comparados com o fechamento oficial. Os pedidos sem ordem válida ficarão pendentes de confirmação até que seja possível identificar as notas correspondentes.
