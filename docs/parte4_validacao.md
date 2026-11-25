@@ -1,4 +1,4 @@
-# Parte 4 — Validação dos dados com o cliente
+# Parte 4 — Validação dos Dados com o Cliente
 
 ## Objetivo da reunião
 
@@ -36,7 +36,7 @@ Um exemplo para discutir na reunião é a ordem 1, do produto P1. Foram pedidas 
 
 ## 3. Conferência da frequência das requisições
 
-Na consulta V9, cada pedido distinto de um produto conta como uma requisição. Em fevereiro, o maior resultado foi de dois pedidos por produto. Por isso, nenhum produto apareceu no relatório que exige mais de dez requisições. Vou confirmar com o cliente se esse é o critério utilizado pela loja.
+Na consulta V9, cada pedido distinto de um produto conta como uma requisição. Em fevereiro, o maior resultado foi de dois pedidos por produto. Por esse motivo, nenhum produto apareceu no relatório que exige mais de dez requisições. Vou confirmar com o cliente se esse é o critério utilizado pela loja.
 
 ## 4. Encerramento
 
