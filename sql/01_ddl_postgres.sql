@@ -61,7 +61,7 @@ CREATE TABLE entradas_mercadoria (
     PRIMARY KEY (ordem_compra, item, produto_id, nro_nfe)
 );
 
--- Preserva os valores das colunas sem cabeçalho na aba pedido_compra.
+-- Preserva os valores das colunas que estão sem cabeçalho na aba pedido_compra.
 CREATE TABLE pedido_colunas_extras (
     linha_excel INTEGER PRIMARY KEY,
     pedido_id BIGINT NOT NULL,
