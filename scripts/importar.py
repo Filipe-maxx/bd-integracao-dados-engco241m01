@@ -55,7 +55,7 @@ def importar_aba(cursor, planilha, tabela):
                 )
 
         if tabela == "fornecedor":
-            # Preserva o código do Excel (por exemplo, F1).
+            # Preserva o código do Excel ( como por exemplo, F1).
             # O PostgreSQL gera a chave numérica idfornecedor.
             dados["codigo_origem"] = dados.pop("idfornecedor")
 
