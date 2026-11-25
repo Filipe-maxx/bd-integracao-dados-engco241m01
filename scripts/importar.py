@@ -9,7 +9,7 @@ from psycopg2 import sql
 
 ARQUIVO = Path(__file__).resolve().parents[1] / "dados" / "base_teste.xlsx"
 
-# O fornecedor precisa ser cadastrado antes dos produtos relacionados a ele.
+# O fornecedor precisa estar cadastrado antes dos produtos relacionados a ele.
 TABELAS = (
     "fornecedor",
     "produtos_filial",
