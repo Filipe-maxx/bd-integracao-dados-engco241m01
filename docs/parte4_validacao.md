@@ -1,4 +1,4 @@
-# Parte 4 — Validação dos Dados com o Cliente
+# Parte 4 — Validação dos dados com o cliente
 
 ## Objetivo da reunião
 
@@ -36,8 +36,8 @@ Um exemplo para discutir na reunião é a ordem 1, do produto P1. Foram pedidas 
 
 ## 3. Conferência da frequência das requisições
 
-Na consulta V9, cada pedido distinto de um produto conta como uma requisição. Em fevereiro, o maior resultado foi de dois pedidos por produto. Por esse motivo, nenhum produto apareceu no relatório que exige mais de dez requisições. Vou confirmar com o cliente se esse é o critério utilizado pela loja.
+Na consulta V9, cada pedido distinto de um produto conta como uma requisição. Em fevereiro, o maior resultado foi de dois pedidos por produto. Por isso, nenhum produto apareceu no relatório que exige mais de dez requisições. Vou confirmar com o cliente se esse é o critério utilizado pela loja.
 
 ## 4. Encerramento
 
-Para cada divergência, vou registrar o documento consultado, a decisão do cliente e a correção autorizada. Depois dos ajustes, as consultas serão executadas novamente e os resultados serão comparados com o fechamento oficial. Os pedidos sem ordem válida ficarão pendentes de confirmação até que seja possível identificar as notas correspondentes.
+Para cada divergência, vou registrar o documento consultado, a decisão do cliente e a correção autorizada. Depois dos ajustes, as consultas irão ser executadas novamente e os resultados serão comparados com o fechamento oficial. Os pedidos sem ordem válida ficarão pendentes de confirmação até que seja possível identificar as notas correspondentes.
