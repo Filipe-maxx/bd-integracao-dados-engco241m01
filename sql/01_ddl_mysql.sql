@@ -1,4 +1,4 @@
--- DDL corrigido para MySQL
+-- DDL corrigido para mysql 
 
 CREATE TABLE fornecedor (
     idfornecedor INTEGER AUTO_INCREMENT PRIMARY KEY,
@@ -62,7 +62,7 @@ CREATE TABLE entradas_mercadoria (
     PRIMARY KEY (ordem_compra, item, produto_id, nro_nfe)
 );
 
--- Guarda valores das colunas sem cabeçalho na aba pedido_compra.
+-- Guarda os valores das colunas sem cabeçalho na aba pedido_compra.
 CREATE TABLE pedido_colunas_extras (
     linha_excel INTEGER PRIMARY KEY,
     pedido_id BIGINT NOT NULL,
