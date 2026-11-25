@@ -11,7 +11,7 @@ WHERE data_emissao >= DATE '2025-02-01'
 GROUP BY produto_id
 ORDER BY produto_id;
 
--- Consulta 2: itens de pedido sem recebimento registrado na base.
+-- Consulta 2: itens de pedido que estão sem recebimento registrado na base.
 -- A ligação considera a ordem de compra, o produto e a filial.
 -- Quando a ordem está zerada ou ausente, o recebimento exige conferência.
 SELECT
