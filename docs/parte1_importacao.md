@@ -4,7 +4,7 @@
 
 A planilha `dados/base_teste.xlsx` foi importada para o PostgreSQL 16.2 com Python. A versão corrigida de `scripts/importar.py` usa `openpyxl` para ler as células do Excel e `psycopg2` para inserir os registros no banco.
 
-O teste foi dividido em três passos. Primeiro, os comandos do DDL original foram executados separadamente para identificar quais tabelas apresentavam erro. Depois, o importador original foi testado em um banco com as tabelas corrigidas. Por fim, a importação corrigida foi executada em outro banco vazio e as contagens foram comparadas com a planilha.
+O teste foi dividido em três passos. Primeiro, todos os comandos do DDL original foram executados separadamente para identificar quais tabelas apresentavam erro. Depois, o importador original foi testado em um banco com as tabelas corrigidas. Por fim, a importação corrigida foi executada em outro banco vazio e as contagens foram comparadas com a planilha.
 
 ## Estrutura da planilha
 
