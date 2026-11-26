@@ -2,7 +2,7 @@
 
 ## Objetivo da reunião
 
-Vou apresentar o fechamento das vendas de fevereiro de 2025 e conferir com o responsável pela loja se os valores coincidem com o relatório comercial. Também vou mostrar os pedidos e as notas que precisam de confirmação antes de classificar uma mercadoria como pendente.
+Vou aprese o fechamento das vendas de fevereiro de 2025 e conferir com o responsável pela loja se os valores coincidem com o relatório comercial. Também vou mostrar os pedidos e as notas que precisam de confirmação antes de classificar uma mercadoria como pendente.
 
 As consultas usadas na reunião estão em `sql/04_validacao.sql`. As consultas V1 e V9 analisam fevereiro. As verificações V2 a V8 examinam a base completa, pois um pedido e seu recebimento podem ocorrer em meses diferentes.
 
