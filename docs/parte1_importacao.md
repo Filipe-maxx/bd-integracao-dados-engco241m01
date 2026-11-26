@@ -73,4 +73,4 @@ UNION ALL
 SELECT 'fornecedor', COUNT(*) FROM fornecedor;
 ```
 
-Após a correção, as cinco tabelas somaram 122 registros, a mesma quantidade das cinco abas de origem. A primeira tentativa mostrou por que também é necessário conferir o conteúdo: as contagens de pedidos e entradas já coincidiam com a planilha, mesmo com datas nulas.
+logo Após a correção, as cinco tabelas somaram 122 registros, a mesma quantidade das cinco abas de origem. A primeira tentativa mostrou por que também é necessário conferir o conteúdo: as contagens de pedidos e entradas já coincidiam com a planilha, mesmo com datas nulas.
