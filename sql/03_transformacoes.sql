@@ -42,7 +42,7 @@ SELECT
 FROM produtos_filial
 ORDER BY filial_id, produto_id;
 
--- Função executada pelo Trigger antes de cadastrar um produto.
+-- Função executada pelo trigger antes de cadastrar um produto.
 CREATE OR REPLACE FUNCTION atribuir_fornecedor()
 RETURNS TRIGGER
 LANGUAGE plpgsql
