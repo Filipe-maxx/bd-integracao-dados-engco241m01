@@ -1,6 +1,6 @@
 # Parte 4 — Validação dos dados com o cliente
 
-## Objetivo da reunião
+## Objetivos da reunião
 
 Vou apresentar o fechamento das vendas de fevereiro de 2025 e conferir com o responsável pela loja se os valores coincidem com o relatório comercial. Também vou mostrar os pedidos e as notas que precisam de confirmação antes de classificar uma mercadoria como pendente.
 
