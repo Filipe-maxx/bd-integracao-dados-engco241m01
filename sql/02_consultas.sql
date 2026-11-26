@@ -1,4 +1,5 @@
 -- 02_consultas
+-- NOme:
 -- Consulta 1: a quantidade vendida e valor total por produto em fevereiro de 2025.
 SELECT
     produto_id AS produto,
