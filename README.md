@@ -10,11 +10,11 @@
 
 | Nome | Matrícula | Usuário do GitHub |
 | --- | --- | --- |
-| Filipe Araújo| 2376037 |  |
+| Filipe Araújo| 2376037 | Filipe-maxx |
 | Saeelem Nascimento | 2409395 | saellemsnasc-source |
-| Vinícius Lima | 2404318 |  |
-| Pablo Fernandes | 2419341 |  |
-| Gustavo Cruz | 2408543 |  |
+| Vinícius Lima | 2404318 | viniciuspereira020705-lang |
+| Pablo Fernandes | 2419341 | pablofernandes1610-afk |
+| Gustavo Cruz | 2408543 | GustavooXZ |
 
 ## O cenário
 
