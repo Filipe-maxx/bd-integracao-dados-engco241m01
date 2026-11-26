@@ -1,4 +1,4 @@
-# Parte 1: Documentação do processo de Importação
+# Parte 1: documentação do processo de Importação
 
 ## Ferramenta utilizada
 
